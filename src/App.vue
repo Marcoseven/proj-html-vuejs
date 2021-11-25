@@ -10,6 +10,7 @@
 import SiteHeader from "./components/SiteHeader.vue";
 import SiteMain from "./components/SiteMain.vue";
 import SiteFooter from "./components/SiteFooter.vue";
+
 export default {
 	name: "App",
 	components: {
@@ -20,4 +21,8 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "./assets/scss/common.scss";
+@import "./assets/scss/variables.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+</style>
