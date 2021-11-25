@@ -19,7 +19,9 @@
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">Portfolio</a></li>
 						<li>
-							<button id="buttonSignIn" class="rounded-pill">Sign In</button>
+							<button id="buttonSignIn" class="rounded-pill" type="button">
+								Sign In
+							</button>
 						</li>
 					</ul>
 				</div>
