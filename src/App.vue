@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<SiteHeader />
+		<SiteHeader :navMenuHeader="navMenu" />
 		<SiteMain />
 		<SiteFooter />
 	</div>
@@ -17,6 +17,11 @@ export default {
 		SiteHeader,
 		SiteMain,
 		SiteFooter,
+	},
+	data() {
+		return {
+			navMenu: ["Home", "About", "Services", "Blog", "Contact", "Portfolio"],
+		};
 	},
 };
 </script>
