@@ -2,7 +2,7 @@
 	<section id="Services">
 		<div class="container">
 			<div class="w-100 text-center">
-				<h6>Our Services</h6>
+				<h6 id="titleServices">Our Services</h6>
 				<h3><strong>What</strong> We Do</h3>
 				<h6>
 					When, white the lovely valley teems with vapour around means the
@@ -80,8 +80,8 @@ h6 {
 	color: #000;
 }
 
-h6:first-child {
-	color: $a_color !important;
+#titleServices {
+	color: $a_color;
 	text-align: center;
 }
 
