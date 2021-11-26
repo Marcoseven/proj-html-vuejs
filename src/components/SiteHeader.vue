@@ -12,12 +12,14 @@
 				</div>
 				<div>
 					<ul class="d-flex align-items-center">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Portfolio</a></li>
+						<li
+							v-for="(value, key, index) in navMenuHeader"
+							:key="index"
+							:class="key"
+						>
+							<a href="#">{{ value.toUpperCase() }}</a>
+						</li>
+
 						<li>
 							<button id="buttonSignIn" class="rounded-pill" type="button">
 								Sign In
@@ -31,7 +33,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+	props: {
+		navMenuHeader: Array,
+	},
+};
 </script>
 
 <style lang="scss">
