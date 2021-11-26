@@ -47,7 +47,7 @@ export default {
 #SiteHeader {
 	height: auto;
 	padding: 0.5rem 0;
-	background-color: $SiteHeader_backgroundColor;
+	background-color: $SiteHeaderProject_backgroundColor;
 }
 
 ul {
