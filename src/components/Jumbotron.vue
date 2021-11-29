@@ -40,12 +40,11 @@ export default {};
 </script>
 
 <style lang="scss">
-@import "../assets/scss/common.scss";
 @import "../assets/scss/variables.scss";
 
 .jumbotron {
 	padding: 0.5rem 0;
-	background-color: $SiteHeaderProject_backgroundColor;
+	background-color: $SiteHeaderProjectPrice_backgroundColor;
 }
 
 h1 {
@@ -65,9 +64,13 @@ button {
 
 #buttonTry {
 	background-color: $buttonTryServices_backgroundColor;
+	filter: grayscale(10%);
+	box-shadow: 0px 0px 25px $buttonTryServices_backgroundColor;
 }
 
 #buttonExplore {
 	background-color: $buttonExplore_backgroundColor;
+	filter: grayscale(10%);
+	box-shadow: 0px 0px 25px $buttonExplore_backgroundColor;
 }
 </style>

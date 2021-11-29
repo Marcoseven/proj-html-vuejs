@@ -3,6 +3,10 @@
 		<Jumbotron />
 		<Services />
 		<Project />
+		<Portfolio />
+		<Price />
+		<Blog />
+		<Testimonial />
 	</div>
 </template>
 
@@ -10,6 +14,10 @@
 import Jumbotron from "./Jumbotron";
 import Services from "./Services";
 import Project from "./Project";
+import Portfolio from "./Portfolio";
+import Price from "./Price";
+import Blog from "./Blog";
+import Testimonial from "./Testimonial";
 
 export default {
 	name: "App",
@@ -17,12 +25,15 @@ export default {
 		Jumbotron,
 		Services,
 		Project,
+		Portfolio,
+		Price,
+		Blog,
+		Testimonial,
 	},
 };
 </script>
 
 <style lang="scss">
-@import "../assets/scss/common.scss";
 @import "../assets/scss/variables.scss";
 
 #SiteMain {

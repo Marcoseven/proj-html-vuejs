@@ -20,11 +20,6 @@
 							<a href="#">{{ value.toUpperCase() }}</a>
 						</li>
 
-						<li>
-							<button id="buttonSignIn" class="rounded-pill" type="button">
-								Sign In
-							</button>
-						</li>
 					</ul>
 				</div>
 			</nav>
@@ -41,13 +36,12 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/scss/common.scss";
 @import "../assets/scss/variables.scss";
 
 #SiteHeader {
 	height: auto;
 	padding: 0.5rem 0;
-	background-color: $SiteHeaderProject_backgroundColor;
+	background-color: $SiteHeaderProjectPrice_backgroundColor;
 }
 
 ul {

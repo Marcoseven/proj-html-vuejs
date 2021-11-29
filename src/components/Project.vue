@@ -9,7 +9,7 @@
 					/>
 				</div>
 				<div class="w-50 text-left">
-					<h6>Start Your Project</h6>
+					<h6 id="titleProject">Start Your Project</h6>
 					<h2 class="fs-1">
 						<strong>Grow Your Project</strong> <br />
 						With Our Strategy
@@ -43,17 +43,18 @@ export default {};
 @import "../assets/scss/variables.scss";
 
 #Project {
+	margin: 3rem 0;
 	padding: 0.5rem 0;
-	background-color: $SiteHeaderProject_backgroundColor;
-}
-
-h6,
-h2 {
-	color: $title_color;
+	background-color: $SiteHeaderProjectPrice_backgroundColor;
 }
 
 #imageProject img {
 	width: 75%;
+}
+
+#titleProject,
+h2 {
+	color: $white_color;
 }
 
 #paragraph {
@@ -64,7 +65,7 @@ h2 {
 
 button {
 	padding: 0.5rem 2rem;
-	margin: 0!important;
+	margin: 0 !important;
 	border: none;
 	color: #fff;
 }
